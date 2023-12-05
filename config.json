@@ -1,0 +1,6 @@
+{
+   "url-backend": "127.0.0.1",
+   "port": 9999,
+   "data-db-connection": "mongodb+srv://jzleon:DDgpZZkrEciqcLB4@cluster0.f7rplex.mongodb.net/GestionPedidos_bd",
+   "name-db": "GestionPedidos_bd"
+}
