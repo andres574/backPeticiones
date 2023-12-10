@@ -38,4 +38,4 @@ class ControladorPedidoProducto():
         return self.repositorioPedidoProdudcto.save(elPedidoProducto)
 
     def delete(self, id):
-        return  self.repositorioPedidoProdudcto.delete(id)
+        return self.repositorioPedidoProdudcto.delete(id)

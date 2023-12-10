@@ -160,10 +160,11 @@ def modificarPedidoProducto(id_Pedidoproducto, id_producto, id_pedido):
     return jsonify(json)
 
 
-app.route("/pedidoProducto/<string:d_Pedidoproducto>", methods=['DELETE'])
+@app.route("/pedidoProducto/<string:id_PedidoProducto>", methods=['DELETE'])
 def eliminarPedidoProducto(id_PedidoProducto):
     json = miControladorPedidoProducto.delete(id_PedidoProducto)
     return jsonify(json)
+
 
 
 def loadFileConfig():
